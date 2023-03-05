@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .list {
+    display: none;
+  }
+
+  .list.hide{
+    display: block;
+  }
+
+  .menu{
+    color: blue;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: #ccc;
+
+  }
+  .menu:hover{
+    background-color: blue;
+    color: white;
+  }
+  
+  .main a {
+    color:blue;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    background: #ccc;
+  }
+  
+  .main a:hover {
+    background-color: blue;
+    color: white;
+  }
+  
